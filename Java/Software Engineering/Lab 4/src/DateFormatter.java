@@ -179,24 +179,20 @@ public class DateFormatter
      * @param date A possible date.
      * @return true If this is a valid date and false otherwise.
      */
-    public static boolean isValidDate(String date)
-    {
+    public static boolean isValidDate(String date) {
         int month = 0;
         int day = 0;
         int year = 0;
         boolean isValid = true;
         
-        if (date.length() == 10)
-        {
-            try
-            {
+        if (date.length() == 10) {
+            try {
                 month = Integer.parseInt(date.substring(0, 2));
                 day = Integer.parseInt(date.substring(3, 5));
                 year = Integer.parseInt(date.substring(6));
 
             }
-            catch(NumberFormatException nfe)
-            {
+            catch(NumberFormatException nfe) {
                 isValid = false;
             }
         }
