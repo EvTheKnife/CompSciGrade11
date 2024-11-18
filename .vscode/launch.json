@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Green6",
+            "request": "launch",
+            "mainClass": "Green6",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
             "name": "DateFormatter",
             "request": "launch",
             "mainClass": "DateFormatter",
