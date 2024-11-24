@@ -8,7 +8,7 @@ public class Main {
         int userIn = sc.nextInt();
 
         
-
+				
         sc.close();
         
     }
