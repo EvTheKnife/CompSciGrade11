@@ -72,20 +72,20 @@ public class DateFormatter
     public static String getOrdinalNum(int dayNum) {
 
         if (10 < dayNum && dayNum < 20) {
-        return dayNum + "th";
-      }
-      else if (dayNum % 10 == 1) {
-        return dayNum + "st";
-      }
-      else if (dayNum % 10 == 2) {
-        return dayNum + "nd";
-      }
-      else if (dayNum % 10 == 3) {
-        return dayNum + "rd";
-      }
-      else {
-        return dayNum + "th";
-      }
+    		return dayNum + "th";
+    	}
+    	else if (dayNum % 10 == 1) {
+    		return dayNum + "st";
+    	}
+    	else if (dayNum % 10 == 2) {
+    		return dayNum + "nd";
+    	}
+    	else if (dayNum % 10 == 3) {
+    		return dayNum + "rd";
+    	}
+    	else {
+    		return dayNum + "th";
+    	}
     }
 
     public static boolean isLeapYear(int year) {
