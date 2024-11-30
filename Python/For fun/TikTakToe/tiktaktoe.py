@@ -28,8 +28,7 @@ def create_board() -> list[list[int]]:
 
 def show_board(board: list[list[int]]) -> list[list[str]]:
 
-  print("\n
-        -------------------------------------\nThe current board is: ")
+  print("\n-------------------------------------\nThe current board is: ")
   for i in board:
     for j in i:
       if j == 0:
