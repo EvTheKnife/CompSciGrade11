@@ -21,9 +21,8 @@ class ModifiedBlink
 	{
 		int cardNum;
 		String cardNumStr, cardShape, cardColor;
-		try {
-			
-		}
+		
+		return null;
 							
 	}
 

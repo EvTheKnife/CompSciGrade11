@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ModifiedBlink",
+            "request": "launch",
+            "mainClass": "ModifiedBlink",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
             "name": "Green6",
             "request": "launch",
             "mainClass": "Green6",

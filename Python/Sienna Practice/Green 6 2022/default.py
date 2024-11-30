@@ -1,6 +1,6 @@
 import math
 
-def clothing():
+def clothing() -> int:
 	numRestrictions = int(input())
 
 	restrictions = []
@@ -15,6 +15,6 @@ def clothing():
 	else:
 		return (math.factorial(16 - numRestrictions)) // (math.factorial(2) - math.factorial((16 - numRestrictions)- 2))
 		
-		
+
 		
 print(clothing())
