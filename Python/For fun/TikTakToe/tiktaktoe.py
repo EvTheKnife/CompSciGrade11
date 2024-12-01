@@ -105,8 +105,6 @@ def player_input(turn: int, board: list[list[int]]) -> None:
 
 
 
-
-
 def win_con(turn: int, board: list[list[int]]) -> bool:
   won: bool = False
 
