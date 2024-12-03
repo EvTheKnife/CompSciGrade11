@@ -4,10 +4,7 @@ def main() -> None:
   
   for turn in range(9):
 
-    if turn % 2 == 0:
-      player_input(turn, board)
-    if turn % 2 == 1:
-      player_input(turn, board)
+    player_input(turn, board)
 
     is_won = win_con(turn, board)
     

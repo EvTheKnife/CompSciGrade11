@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lottery",
+            "request": "launch",
+            "mainClass": "Lottery",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "Blastoff",
+            "request": "launch",
+            "mainClass": "Blastoff",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "SumUp",
+            "request": "launch",
+            "mainClass": "SumUp",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "PrintFive",
+            "request": "launch",
+            "mainClass": "PrintFive",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "WordSplit",
+            "request": "launch",
+            "mainClass": "WordSplit",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "TwoPower",
+            "request": "launch",
+            "mainClass": "TwoPower",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "TerminalTextDriver",
+            "request": "launch",
+            "mainClass": "TerminalTextDriver",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
             "name": "ModifiedBlink",
             "request": "launch",
             "mainClass": "ModifiedBlink",
