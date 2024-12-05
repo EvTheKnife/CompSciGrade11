@@ -1,4 +1,6 @@
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -18,6 +20,8 @@ public class Lottery {
      * You may not remove or add any of these variables.
      */
 
+    private static Random rand = new Random();
+
     //The 5 winning lottery numbers.
     private static int ball1, ball2, ball3, ball4, ball5;
 
@@ -31,6 +35,7 @@ public class Lottery {
      */
     public static void main(String args[]) {
         setWinningNumbers();
+
 
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter the input file name:  ");
@@ -61,9 +66,31 @@ public class Lottery {
      * is not a valid selection because 17 was selected twice.
      */
     private static void setWinningNumbers() {
-        for (int i = 0; i < 5; i++) {
-            
+        
+        ball1 = rand.nextInt(1, 5);
+        ball2 = rand.nextInt(1, 5);
+        ball3 = rand.nextInt(1, 5);
+        ball4 = rand.nextInt(1, 5);
+        ball5 = rand.nextInt(1, 5);
+
+        int[] balls = {ball1, ball2, ball3, ball4, ball5};
+        ArrayList<Integer> newBalls = new ArrayList<Integer>();
+        while (newBalls.size() > 5) {
+            for (int i = 0; i < 5; i++) {
+                if (!newBalls.contains(balls[i])) {
+                    newBalls.add(balls[i]);
+                } else {
+                    balls[i] = rand.nextInt(1, 5);
+                    System.out.println("Dupe");
+                    break;
+                }
+            }
         }
+
+        for (int i : balls) {
+            System.out.println(i);
+        }
+
     }
 
     /**

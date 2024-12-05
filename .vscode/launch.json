@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WhileLoopExamples",
+            "request": "launch",
+            "mainClass": "WhileLoopExamples",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "Gradebook",
+            "request": "launch",
+            "mainClass": "Gradebook",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "Lab6Part3",
+            "request": "launch",
+            "mainClass": "Lab6Part3",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "Flip",
+            "request": "launch",
+            "mainClass": "Flip",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
+            "name": "TerminalShapes",
+            "request": "launch",
+            "mainClass": "TerminalShapes",
+            "projectName": "CompSciGrade11_82d9b242"
+        },
+        {
+            "type": "java",
             "name": "Lottery",
             "request": "launch",
             "mainClass": "Lottery",
