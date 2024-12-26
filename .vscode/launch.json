@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CompSciGrade11_279b3c67"
+        },
+        {
+            "type": "java",
+            "name": "Reindeer",
+            "request": "launch",
+            "mainClass": "Reindeer",
+            "projectName": "CompSciGrade11_279b3c67"
+        },
+        {
+            "type": "java",
+            "name": "Lottery",
+            "request": "launch",
+            "mainClass": "Lottery",
+            "projectName": "CompSciGrade11_279b3c67"
+        },
+        {
+            "type": "java",
+            "name": "Lottery",
+            "request": "launch",
+            "mainClass": "Lottery",
+            "projectName": "CompSciGrade11_f1d25728"
+        },
+        {
+            "type": "java",
+            "name": "SumUp",
+            "request": "launch",
+            "mainClass": "SumUp",
+            "projectName": "CompSciGrade11_f1d25728"
+        },
+        {
+            "type": "java",
+            "name": "Arrow",
+            "request": "launch",
+            "mainClass": "Arrow",
+            "projectName": "CompSciGrade11_f1d25728"
+        },
+        {
+            "type": "java",
+            "name": "Gradebook",
+            "request": "launch",
+            "mainClass": "Gradebook",
+            "projectName": "CompSciGrade11_f1d25728"
+        },
+        {
+            "type": "java",
+            "name": "WhileLoopExamples",
+            "request": "launch",
+            "mainClass": "WhileLoopExamples",
+            "projectName": "CompSciGrade11_f1d25728"
+        },
+        {
+            "type": "java",
             "name": "WhileLoopExamples",
             "request": "launch",
             "mainClass": "WhileLoopExamples",

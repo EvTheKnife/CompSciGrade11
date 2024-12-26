@@ -8,7 +8,7 @@ def main():
 
 def make_board() -> list[list[str]]:
 		return [[None, None, None, None],
-    				[None, None, None, None],
+    	    [None, None, None, None],
             [None, None, None, None],
             [None, None, None, None],
             [None, None, None, None],
@@ -23,7 +23,7 @@ def make_board() -> list[list[str]]:
 
 def assign_color(colorNum: int) -> str:
     color_dict = {
-    		1: "Red",
+    	1: "Red",
         2: "Blue",
         3: "Green",
         4: "Yellow",
@@ -33,9 +33,7 @@ def assign_color(colorNum: int) -> str:
     return color_dict.get(colorNum, "Invalid Color")
 
 def make_key() -> list[str]:
-   
-	
-	
-	return 0
-
-main()
+ 
+    return [assign_color(rand.randint(1, 5))]
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,5 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "editor.fontFamily": "Fira Code Light, Consolas, 'Courier New', monospace"
 }

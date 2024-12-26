@@ -10,7 +10,8 @@
 public class WhileLoopExamples
 {
     public static void main(String[] args){
-        // Test methods here
+
+        printLeftTriangle(5);    
     }
 
     /**
@@ -29,7 +30,7 @@ public class WhileLoopExamples
     public static int digitSum(int value) {
 
 
-        String valueString = value+"";
+        String valueString = value + "";
         int i = 0;
         int sum = 0;
         while (i <valueString.length()) {
@@ -52,7 +53,15 @@ public class WhileLoopExamples
 
      */
     
+    public static void printLeftTriangle(int n) {
+        int i = n;
 
+        while (i > 0) {
+                        
+            
+        } 
+
+    }
     
     /**
      * Problem 3:

@@ -4,27 +4,30 @@ public class Gradebook {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-
+    String studentName = "";
+    int n = 0;
     System.out.print("Enter the user data: ");
     
+    while (true) {
     
-    String studentName = sc.next();
+      studentName = sc.next();
 
-    int n = sc.nextInt();
+      n = sc.nextInt();     
 
-    int[] grades = new int[n];
-    
-    int average = 0;
+      int average = 0;
 
-    for (int i = 0; i < n; i++) {
-      grades[i] = sc.nextInt();
+      for (int i = 0; i < n; i++) {
+        average += sc.nextInt();
+      }
+
+      if (studentName.equals("STOP") && n == 0) {
+        break;
+      }
+
+      System.out.println("The average for " + studentName + " is " + (average / n));
+
+      System.out.print("Enter the user data: ");
+
     }
-
-    for (int i = 0; i < n; i++) {
-      average += grades[i];
-    }
-
-    System.out.println("\nThe average for " + studentName + " is" + (average / n));
-
   }
 }
