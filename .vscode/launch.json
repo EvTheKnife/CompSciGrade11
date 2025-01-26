@@ -9,6 +9,34 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
+            "projectName": "CompSciGrade11_2d9852d"
+        },
+        {
+            "type": "java",
+            "name": "ThermostatDriver",
+            "request": "launch",
+            "mainClass": "ThermostatDriver",
+            "projectName": "CompSciGrade11_2d9852d"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "Driver",
+            "projectName": "CompSciGrade11_2d9852d"
+        },
+        {
+            "type": "java",
+            "name": "Lottery",
+            "request": "launch",
+            "mainClass": "Lottery",
+            "projectName": "CompSciGrade11_2d9852d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
             "projectName": "CompSciGrade11_279b3c67"
         },
         {

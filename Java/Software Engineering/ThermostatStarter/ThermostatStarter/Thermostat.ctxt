@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=Thermostat
+comment0.text=\r\n\ This\ class\ represents\ a\ simple\ thermostat\ that\ has\ a\r\n\ fan\ the\ can\ be\ turned\ on\ or\ off\ and\ a\ temperature\r\n\ range\ of\ [60,\ 85]\ degrees\ Fahrenheit.\r\n\ \r\n\ @author\ Martino\r\n\ @version\ \r\n
+comment1.params=
+comment1.target=Thermostat()
+comment1.text=\r\n\ Constructs\ a\ thermostat\ that\ is\ off\ and\ has\ a\ temperature\r\n\ setting\ of\ 68\ degrees\ Fahrenheit.\r\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment10.text=\r\n\ Returns\ a\ description\ of\ the\ thermostat\ settings,\r\n\ including\ whether\ the\ fan\ is\ on\ or\ off\ and\r\n\ the\ current\ temperature.\r\n\ \r\n\ E.g.,\ \r\n\ Fan\ is\ on;\ Temperature\ \=\ 72\r\n\ \r\n\ @return\ A\ description\ of\ the\ thermostat\ settings,\r\n\ includeing\ whether\ the\ fan\ is\ on\ or\ off\ and\r\n\ the\ current\ temperature.\r\n
+comment2.params=fan\ temp
+comment2.target=Thermostat(boolean,\ int)
+comment2.text=\r\n\ Constructs\ a\ thermostat.\ The\ fan\ will\ be\ set\ to\ the\ input\r\n\ value.\ \ If\ the\ temperature\ is\ in\ [60,\ 85],\ it\ is\ set\ to\r\n\ the\ input\ value.\ \ Otherwise,\ it\ is\ set\ to\ 68\ degrees.\r\n\ \r\n\ @param\ fan\ True\ if\ the\ fan\ should\ be\ on\ or\ false\ if\r\n\ it\ should\ be\ off.\r\n\ @param\ The\ setting\ for\ the\ thermostat\ in\ [60,\ 85].\r\n
+comment3.params=
+comment3.target=boolean\ getFan()
+comment3.text=\r\n\ Returns\ true\ if\ the\ fan\ is\ on\ and\ false\ otherwise.\r\n\ \r\n\ @return\ true\ if\ the\ fan\ is\ on\ and\ false\ otherwise.\r\n
+comment4.params=
+comment4.target=int\ getTemp()
+comment4.text=\r\n\ Returns\ the\ current\ temperature\ of\ the\ thermostat.\r\n\ \r\n\ @return\ The\ current\ temperature\ of\ the\ thermostat.\r\n
+comment5.params=fan
+comment5.target=void\ setFan(boolean)
+comment5.text=\r\n\ Sets\ the\ fan\ to\ on(true)\ or\ off(false)\ according\r\n\ to\ the\ input\ value.\r\n\ \r\n\ @param\ fan\ True\ if\ the\ fan\ should\ be\ set\ to\ on\ and\r\n\ false\ otherwise.\r\n
+comment6.params=temp
+comment6.target=void\ setTemp(int)
+comment6.text=\r\n\ If\ the\ input\ temperature\ is\ in\ [60,\ 85],\ sets\ the\r\n\ thermostate\ to\ the\ input\ temperature.\ \ Otherwise,\r\n\ sets\ the\ temperature\ to\ 68\ degrees\ Fahrenheit.\r\n\ \r\n\ @param\ temp\ The\ temperature\ at\ which\ to\ set\ the\r\n\ thermostat\ in\ [60,\ 85].\r\n
+comment7.params=
+comment7.target=void\ toggleFan()
+comment7.text=\r\n\ If\ the\ fan\ is\ on,\ turns\ it\ off.\ \ If\ the\ fan\ is\ off,\r\n\ turns\ it\ on.\r\n
+comment8.params=adder
+comment8.target=int\ increaseTemp(int)
+comment8.text=\r\n\ If\ the\ input\ value\ +\ the\ current\ temperature\ is\r\n\ less\ than\ or\ equal\ to\ 85\ degrees,\ changes\ the\r\n\ temperature\ to\ the\ current\ temperature\ plus\ the\ input\r\n\ value.\ \ Otherwise,\ sets\ the\ temperature\ to\ 85\ degrees.\r\n\r\n\ @param\ adder\ The\ amount\ by\ which\ the\ temperature\ may\r\n\ be\ increased.\r\n\ @return\ The\ temperature\ of\ the\ thermostat\ after\ it\ is\r\n\ updated.\r\n
+comment9.params=subtr
+comment9.target=int\ decreaseTemp(int)
+comment9.text=\r\n\ If\ the\ the\ current\ temperature\ -\ input\ value\ is\r\n\ greater\ than\ or\ equal\ to\ 60\ degrees,\ changes\ the\r\n\ temperature\ to\ the\ current\ temperature\ minus\ the\ input\r\n\ value.\ \ Otherwise,\ sets\ the\ temperature\ to\ 60\ degrees.\r\n\r\n\ @param\ adder\ The\ amount\ by\ which\ the\ temperature\ may\r\n\ be\ decreased.\r\n\ @return\ The\ temperature\ of\ the\ thermostat\ after\ it\ is\r\n\ updated.\r\n
+numComments=11

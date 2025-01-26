@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ThermostatDriver
+comment0.text=\r\n\ This\ program\ can\ be\ used\ to\ test\ the\ Thermostat\ class.\r\n\ This\ is\ not\ necessarily\ a\ complete\ test\ of\ the\ Thermostat\r\n\ class.\r\n\r\n\ @author\ Martino\r\n\ @version\r\n
+comment1.params=
+comment1.target=void\ testOne()
+comment1.text=\r\n\ Use\ this\ method\ to\ test\ the\ Thermostat\ class\ where\r\n\ indicated\ in\ the\ lab\ directions.\r\n
+comment2.params=
+comment2.target=void\ testTwo()
+comment2.text=\r\n\ Use\ this\ method\ to\ test\ the\ Thermostat\ class\ where\r\n\ indicated\ in\ the\ directions.\r\n
+numComments=3

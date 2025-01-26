@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Lottery {
 	
-    /*
+    /*x
      * Private global static (class) variables.
      *
      * These variables can be used anywhere in this class.  You do not need to
@@ -28,6 +28,8 @@ public class Lottery {
 
     //The number of tickets that have 0 matches, 1 match, ..., 5 matches.
     private static int num0Match, num1Match, num2Match, num3Match, num4Match, num5Match;
+    private static int[] idkAnymore = {num0Match, num1Match, num2Match, num3Match, num4Match, num5Match};
+
 
     private static int numTickets = 0;
 
@@ -150,8 +152,23 @@ public class Lottery {
 
         System.out.printf("Number of tickets played:  %,d %n%n", numTickets);
 
-        
-        
+        System.out.println("Numbers Matched    Number Tickets    Payout per matched ticket    Total Payout");
+        System.out.println("---------------    --------------    -------------------------    ------------");
+
+        int[] nums = {0, 1, 2, 3, 4, 5};
+
+        double[] payout = calcPayout();
+        double profit1 = calcProfit();
+        for (int i = 0; i < 6; i++) {
+            System.out.printf("%12d %8s", nums[i], "");
+            System.out.printf("%9d %8s", idkAnymore[i], "");
+            System.out.printf("%5s %,10.2f %14s", "$", payout[i], "");
+            System.out.printf("%1s %,12.2f", "$", idkAnymore[i] * payout[i]);
+            System.out.println();
+        }
+        System.out.println();
+        System.out.printf("Profit: %1s%,11.2f%n", "$", profit1);
+
     }
 
     public static void matches(int t1, int t2, int t3, int t4, int t5) {
@@ -168,25 +185,60 @@ public class Lottery {
 
         switch (numMatch) {
             case 0:
-                num0Match++;
+                idkAnymore[0]++;
                 break;
             case 1: 
-                num1Match++;
+                idkAnymore[1]++;
                 break;
             case 2:
-                num2Match++;
+                idkAnymore[2]++;
                 break;
             case 3:
-                num3Match++;
+                idkAnymore[3]++;
                 break;
             case 4:
-                num4Match++;
+                idkAnymore[4]++;
                 break;
             case 5:
-                num5Match++;
+                idkAnymore[5]++;
                 break;
         }
 
         //System.out.println(num0Match + " " + num1Match + " " + num2Match + " " + num3Match + " " + num4Match + " " + num5Match + " " );
     }
+
+    public static double[] calcPayout() {
+
+        double[] payoutList = new double[6];
+
+        payoutList[0] = 0;
+        payoutList[1] = (0.10 * numTickets) / idkAnymore[1];
+        payoutList[2] = (0.12 * numTickets) / idkAnymore[2];
+        payoutList[3] = (0.15 * numTickets) / idkAnymore[3];
+        payoutList[4] = (0.18 * numTickets) / idkAnymore[4];
+        payoutList[5] = (0.20 * numTickets) / idkAnymore[5];
+
+        for (int i = 1; i < 6; i++) {
+            if (idkAnymore[i] == 0) {
+                payoutList[i] = 0;
+            }
+        }
+
+        return payoutList;
+    }
+
+    public static double calcProfit() {
+
+        double totalRevenue = numTickets;
+
+        double[] payout = calcPayout();
+
+        for (int i = 0; i < 6; i++) {
+            totalRevenue -= payout[i] * idkAnymore[i];
+        }
+        
+        return totalRevenue;
+
+    }
+
 }
