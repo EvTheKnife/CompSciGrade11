@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MovieTheater
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MovieTheater\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MovieTheater()
+comment1.text=\r\n\ Constructs\ a\ MovieTheater\ object\ by\r\n\ creating\ the\ ArrayList\ passes\r\n
+comment2.params=mTitle\ sNumber\ show\ pNumber
+comment2.target=void\ addMoviePass(java.lang.String,\ int,\ java.lang.String,\ int)
+comment2.text=\r\n\ Add\ a\ new\ MoviePass\ to\ the\ ArrayList\ passes.\r\n\r\n\ @param\ mTitle\ The\ movie\ title.\r\n\ @param\ sNumber\ The\ screen\ number.\r\n\ @param\ show\ The\ date\ and\ time\ of\ the\ showing.\r\n\ @param\ pNumber\ The\ pass\ number.\r\n
+comment3.params=screen
+comment3.target=int\ getViewsOnScreen(int)
+comment3.text=\r\n\ @param\ screen\ The\ screen\ number.\r\n\r\n\ @return\ The\ number\ of\ MoviePasses\ for\ the\ movie\ playing\r\n\ the\ screen.\ \ \r\n
+comment4.params=oldScreen\ newScreen
+comment4.target=void\ changeScreen(int,\ int)
+comment4.text=\r\n\ Change\ all\ movies\ showing\ on\ the\ screen\ oldScreen\ to\ show\r\n\ on\ the\ screen\ newScreen.\ \ \r\n\r\n\ @param\ oldScreen\ The\ original\ screen\ number.\r\n\ @param\ newScreen\ The\ new\ screen\ number.\r\n
+comment5.params=forPassNumber\ newShowing
+comment5.target=boolean\ changeShowing(int,\ java.lang.String)
+comment5.text=\r\n\ Write\ a\ while\ loop\ to\ find\ the\ pass\ number\ forPassNumber\ \ \r\n\ and\ change\ its\ showing\ to\ newShowing.\ \ Once\ the\ correct\ \ \r\n\ pass\ number\ is\ found,\ the\ loop\ should\ terminate.\r\n\ \r\n\ @param\ forPassNumber\ The\ number\ of\ the\ pass\ to\ update.\r\n\ @param\ newShowing\ \ The\ new\ showing\ number.\r\n\r\n\ @return\ true\ if\ the\ pass\ number\ was\ found,\ and\ false\ \r\n\ \ \ \ \ \ \ \ \ otherwise.\r\n
+numComments=6

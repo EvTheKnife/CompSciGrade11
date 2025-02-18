@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MoviePass
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MoviePass\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=mTitle\ sNumber\ show\ pNumber
+comment1.target=MoviePass(java.lang.String,\ int,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getMovieTitle()
+comment3.params=
+comment3.target=int\ getScreenNumber()
+comment4.params=
+comment4.target=int\ getPassNumber()
+comment5.params=newShowing
+comment5.target=void\ setShowing(java.lang.String)
+comment6.params=newScreenNumber
+comment6.target=void\ setScreenNumber(int)
+numComments=7
